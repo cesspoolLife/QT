@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QT</string>
+    <string name="blank"> </string>
+    <string name="action_settings">Setting</string>
+    <string name="hello_world"></string>
+    <string name="qt_date">오늘날짜</string>
+    <string name="qt_series">*</string>
+    <string name="qt_headline">간단설명</string>
+    <string name="qt_phrase">성경구절</string>
+    <string name="qt_korean">한글본문</string>
+	<string name="qt_english">영어본문</string>
+	<string name="qt_comment">주 석</string>
+	<string name="qt_up">&#xf0aa;위로하나님</string>
+	<string name="qt_down">&#xf0ab;아래로 인간</string>
+	<string name="qt_question">&#xf059;물어봐</string>
+	<string name="qt_feeling">&#xf06a;느껴봐</string>
+	<string name="qt_action">&#xf0a9;옆으로실천해</string>
+	<string name="qt_meditation">Meditation</string>
+	<string name="contentDescription">contentDescription</string>
+	<string name="image">image</string>
+	<string name="test">test</string>
+	
+	<string name="weekday_mon">월요일</string>
+	<string name="weekday_tue">화요일</string>
+	<string name="weekday_wed">수요일</string>
+	<string name="weekday_thu">목요일</string>
+	<string name="weekday_fri">금요일</string>
+	<string name="weekday_sat">툐요일</string>
+	<string name="weekday_sun">주 일</string>
+	
+	<!-- font awesome -->
+	<string name="icon_hand_up">&#xf0a6;</string>
+	<string name="icon_hand_down">&#xf0a7;</string>
+</resources>

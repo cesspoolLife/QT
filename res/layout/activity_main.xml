@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/splash_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/main_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:orientation="horizontal"
+            android:background="#2E2E2E" >
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_bar" 
+            android:paddingBottom="50dip">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:layout_width="120dip"
+                        android:layout_height="wrap_content"
+                        android:background="#73B597"
+                        android:gravity="center"
+                        android:text="@string/qt_date"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/qt_date"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dip"
+                        android:text="@string/hello_world"
+                        style="@style/contentsView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:layout_width="120dip"
+                        android:layout_height="wrap_content"
+                        android:background="#73B597"
+                        android:gravity="center"
+                        android:text="@string/qt_series"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/qt_series"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dip"
+                        android:text="@string/hello_world"
+                        style="@style/contentsView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:layout_width="120dip"
+                        android:layout_height="wrap_content"
+                        android:background="#73B597"
+                        android:gravity="center"
+                        android:text="@string/qt_headline"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/qt_headline"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dip"
+                        android:text="@string/hello_world"
+                        style="@style/contentsView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:layout_width="120dip"
+                        android:layout_height="wrap_content"
+                        android:background="#73B597"
+                        android:gravity="center"
+                        android:text="@string/qt_phrase"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/qt_phrase"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dip"
+                        android:text="@string/hello_world"
+                        style="@style/contentsView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:layout_width="120dip"
+                        android:layout_height="wrap_content"
+                        android:background="#73B597"
+                        android:gravity="center"
+                        android:text="@string/qt_korean"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/qt_korean"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dip"
+                        android:text="@string/hello_world"
+                        style="@style/contentsView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:layout_width="120dip"
+                        android:layout_height="wrap_content"
+                        android:background="#73B597"
+                        android:gravity="center"
+                        android:text="@string/qt_english"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/qt_english"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dip"
+                        android:text="@string/hello_world"
+                        style="@style/contentsView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:layout_width="120dip"
+                        android:layout_height="wrap_content"
+                        android:background="#73B597"
+                        android:gravity="center"
+                        android:text="@string/qt_comment"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/qt_comment"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dip"
+                        android:text="@string/hello_world"
+                        style="@style/contentsView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:id="@+id/qt_item_up"
+                        android:layout_width="120dip"
+                        android:layout_height="wrap_content"
+                        android:background="#73B597"
+                        android:gravity="center"
+                        android:text="@string/qt_up"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/qt_up"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dip"
+                        android:text="@string/hello_world"
+                        style="@style/contentsView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:id="@+id/qt_item_down"
+                        android:layout_width="120dip"
+                        android:layout_height="wrap_content"
+                        android:background="#73B597"
+                        android:gravity="center"
+                        android:text="@string/qt_down"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/qt_down"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dip"
+                        android:text="@string/hello_world"
+                        style="@style/contentsView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:id="@+id/qt_item_question"
+                        android:layout_width="120dip"
+                        android:layout_height="wrap_content"
+                        android:background="#73B597"
+                        android:gravity="center"
+                        android:text="@string/qt_question"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/qt_question"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dip"
+                        android:text="@string/hello_world"
+                        style="@style/contentsView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:id="@+id/qt_item_feeling"
+                        android:layout_width="120dip"
+                        android:layout_height="wrap_content"
+                        android:background="#73B597"
+                        android:gravity="center"
+                        android:text="@string/qt_feeling"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/qt_feeling"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dip"
+                        android:text="@string/hello_world"
+                        style="@style/contentsView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:id="@+id/qt_item_action"
+                        android:layout_width="120dip"
+                        android:layout_height="wrap_content"
+                        android:background="#73B597"
+                        android:gravity="center"
+                        android:text="@string/qt_action"
+                        android:textColor="#FFFFFF" 
+                        />
+
+                    <TextView
+                        android:id="@+id/qt_action"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dip"
+                        android:text="@string/hello_world"
+                        style="@style/contentsView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:layout_width="120dip"
+                        android:layout_height="wrap_content"
+                        android:background="#73B597"
+                        android:gravity="center"
+                        android:text="@string/qt_meditation"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/qt_meditation"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dip"
+                        android:text="@string/hello_world" 
+                        style="@style/contentsView" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <SlidingDrawer
+            android:id="@+id/slide"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:allowSingleTap="true"
+            android:animateOnClick="true"
+            android:bottomOffset="0dp"
+            android:content="@+id/slide_content"
+            android:handle="@+id/slide_handle"
+            android:orientation="vertical"
+            android:topOffset="80dp" >
+
+            <LinearLayout
+                android:id="@+id/slide_handle"
+                android:layout_width="match_parent"
+                android:background="#2E2E2E"
+                android:layout_height="50dip"
+                android:orientation="horizontal"
+                android:gravity="center" >
+                <Button
+                    android:id="@+id/slide_updown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#2E2E2E"
+                    android:textColor="#FFFFFF"
+                    android:textSize="40sp"
+                    android:text="@string/icon_hand_up"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/slide_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFFFF"
+                android:orientation="vertical" >
+
+                <TextView
+			        android:text="@string/blank"
+			        android:textSize="20sp"
+			        android:id="@+id/gv_calendar_activity_tv_title"
+			        android:layout_height="wrap_content"
+			        android:layout_width="fill_parent"
+			        android:layout_marginTop="20dp"
+			        android:gravity="center"
+			        android:textColor="#000"
+			        android:textStyle="bold"/>
+                <GridView
+			        android:id="@+id/gv_calendar_activity_gv_calendar"
+			        android:layout_width="fill_parent"
+        			android:layout_height="wrap_content"
+			        android:layout_marginTop="30dp"
+			        android:layout_marginLeft = "20dp"
+			        android:layout_marginRight = "20dp"
+			        android:numColumns="7"
+			        android:stretchMode="columnWidth"
+			        
+			        android:listSelector="@drawable/gridview_selector" >                   
+               	</GridView>
+            </LinearLayout>
+        </SlidingDrawer>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/splash"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/start_img"
+        android:clickable="true" >
+    </LinearLayout>
+
+</FrameLayout>
